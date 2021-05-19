@@ -17,7 +17,7 @@ android {
 	buildToolsVersion "30.0.3"
 
 	defaultConfig {
-		applicationId "com.UPG.webviewapp"
+		applicationId "com.robotemplates.webviewappUPG"
 		minSdkVersion 19
 		targetSdkVersion 30
 		versionCode getVersionCode(VERSION_MAJOR, VERSION_MINOR, VERSION_PATCH, VERSION_BUILD)

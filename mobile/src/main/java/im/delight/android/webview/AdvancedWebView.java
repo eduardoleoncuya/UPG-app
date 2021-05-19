@@ -47,8 +47,8 @@ import android.webkit.WebStorage.QuotaUpdater;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
-import com.UPG.webviewapp.utility.ImageCaptureHelper;
-import com.UPG.webviewapp.utility.LocationUtility;
+import com.robotemplates.webviewappUPG.utility.ImageCaptureHelper;
+import com.robotemplates.webviewappUPG.utility.LocationUtility;
 
 import java.io.UnsupportedEncodingException;
 import java.lang.ref.WeakReference;

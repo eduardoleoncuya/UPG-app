@@ -3,7 +3,7 @@
 	xmlns:android="http://schemas.android.com/apk/res/android"
 	xmlns:tools="http://schemas.android.com/tools"
 	android:installLocation="auto"
-	package="com.robotemplates.webviewapp">
+	package="com.robotemplates.webviewappUPG">
 
 	<uses-permission android:name="android.permission.INTERNET" />
 	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -30,7 +30,7 @@
 	-->
 
 	<application
-		android:name="com.UPG.webviewapp.WebViewAppApplication"
+		android:name="com.robotemplates.webviewappUPG.WebViewAppApplication"
 		android:icon="@mipmap/ic_launcher"
 		android:label="@string/app_name"
 		android:theme="@style/Theme.WebViewApp.Blue"
@@ -41,7 +41,7 @@
 		tools:ignore="AllowBackup,UnusedAttribute">
 
 		<activity
-			android:name="com.UPG.webviewapp.activity.SplashActivity"
+			android:name="com.robotemplates.webviewappUPG.activity.SplashActivity"
 			android:theme="@style/Theme.WebViewApp.Splash">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
@@ -50,7 +50,7 @@
 		</activity>
 
 		<activity
-			android:name="com.UPG.webviewapp.activity.MainActivity"
+			android:name="com.robotemplates.webviewappUPG.activity.MainActivity"
 			android:label="@string/app_name"
 			android:launchMode="standard"
 			android:configChanges="keyboard|keyboardHidden|orientation|screenSize">
@@ -66,7 +66,7 @@
 		</activity>
 
 		<service
-			android:name="com.UPG.webviewapp.fcm.WebViewAppFirebaseMessagingService"
+			android:name="com.robotemplates.webviewappUPG.fcm.WebViewAppFirebaseMessagingService"
 			android:stopWithTask="false"
 			tools:ignore="ExportedService">
 			<intent-filter>
